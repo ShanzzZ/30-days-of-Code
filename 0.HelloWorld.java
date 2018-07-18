@@ -8,7 +8,6 @@ public class HelloWorld {
  Print Hello, World. on a single line.
  Print the value of your variable on a second line.
  */
-
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);   //Create a scanner to get input
 		
