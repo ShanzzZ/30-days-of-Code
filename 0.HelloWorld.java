@@ -3,7 +3,10 @@ import java.util.Scanner;
 public class HelloWorld {
 	
 /*
- * save a line of input from stdin to a variable, print Hello, World. on a single line, and finally print the value of your variable on a second line.
+ * 
+ Save a line of input to a variable.
+ Print Hello, World. on a single line.
+ Print the value of your variable on a second line.
  */
 
 	public static void main(String[] args) {
