@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
 /*
-*
-Declare 3 variables: int, double, String.
-Read lines of input from stdin and initialize your variables.
-Print the sum of i plus your int variable on a new line.
-Print the sum of d plus your double variable to a scale of one decimal place on a new line.
-Concatenate s with the string you read as input and print the result on a new line.
-*/
+ *
+ Declare 3 variables: int, double, String.
+ Read lines of input from stdin and initialize your variables.
+ Print the sum of i plus your int variable on a new line.
+ Print the sum of d plus your double variable to a scale of one decimal place on a new line.
+ Concatenate s with the string you read as input and print the result on a new line.
+ */
 	
 public class Solution{
 	public static void main (String[]args){
