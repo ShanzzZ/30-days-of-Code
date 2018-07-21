@@ -1,5 +1,16 @@
 import java.util.Scanner;
 
+/* 
+ *Write a Person class with an instance variable, age, and a constructor that takes an integer,intialAge, as a parameter. 
+ *If initialAge is negative, it should be set to 0, print:Age is not valid, setting age to 0. 
+ *Write the following instance methods:
+ *yearPasses() should increase the  instance variable by .
+ *amIOld() should perform the following conditional actions:
+ *If age <13, print:You are young..
+ *If age >=13 and <18, print:You are a teenager.
+ *Otherwise, print:You are old.
+ */
+
 public class Person {
     private int age;	
   
@@ -26,7 +37,7 @@ public class Person {
   		
 	}	    		
 	    		
-	public static void main(String[] args) {
+	public static void main(String[] args) { //static静态方法，可以直接使用“类名.方法名”调用
 		Scanner sc = new Scanner(System.in);
 		int T = sc.nextInt();
 		for (int i = 0; i < T; i++) {
