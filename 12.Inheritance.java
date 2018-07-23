@@ -13,8 +13,8 @@ class Person { //父类，含有打印名字+id的方法
 	protected String lastName;
 	protected int idNumber;
 	
-	Person(String firstName, String lastName, int identification){ //初始化属性值
-		this.firstName = firstName; //this指向对象本身
+	Person(String firstName, String lastName, int identification){ //初始化属性值，以便子类引用
+		this.firstName = firstName; //“此name为protected成员变量同名的参数"，使用它来消除变量引用的歧义
 		this.lastName = lastName;
 		this.idNumber = identification;
 	}
@@ -70,7 +70,7 @@ class Solution { //读取数据，打印结果
 
         Student s = new Student(firstName, lastName, id, testScores); //创造一个Student
         s.printPerson(); //引用父类的方法，打印名字+id
-        System.out.println("Grade: " + s.calculate()); 
+        System.out.println("Grade: " + s.calculate()); //引用子类的方法，打印成绩
     }
 }	
 
